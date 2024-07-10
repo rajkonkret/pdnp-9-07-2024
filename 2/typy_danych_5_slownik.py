@@ -40,3 +40,29 @@ print(dictionary)  # {'imie': 'Tomek', 'wiek': 37, 'date': '12-12-2024'}
 dict_small = {'x': 2}
 dict_small.update([('y', '3'), ('z', 2)])
 print(dict_small)  # {'x': 2, 'y': '3', 'z': 2}
+
+# input() - wprowadzanie danych np.: z klawiatury
+
+# tekst = input("Wpisz tekst")
+# print(tekst)
+
+# napisać słownik pol-ang
+# zbior danych - slownik
+# wyswietlic słowka (klucze)
+# pobrac słówko od użytkownika (input())
+# wypisać tłuamczenie -> wartośc dla klucza
+pol_ang = {'kot': 'cat', 'pies': 'dog', 'jabłko': 'apple'}
+print("Słówka do przetłumaczenia", pol_ang.keys())
+tekst = input("Podaj co chcesz przetłumaczyć")
+# print(pol_ang[tekst.lower().replace(" ", "")])
+print(pol_ang.get(tekst, "Nie ma takiego słówka"))
+# strip() - usunięcie spacji  i białych znaków
+
+# aplikacja kalkulator
+# pobrać liczby od użytkownika
+# wypisac wynik obliczenia (+)
+a = input("Podaj pierwszą liczbę")  # zwraca str()
+b = input("Podaj drugą liczbę")
+print(a + b)  # to byląby konkatenacja
+# print(pol_ang[tekst.lower().replace(" ", "")])
+print(int(a) + float(b))  # 5.0
