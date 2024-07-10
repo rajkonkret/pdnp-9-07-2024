@@ -8,7 +8,7 @@ print(zbior)  # {33, 66, 777, 11, 44, 22, 55}
 
 # tworzenie pustego seta, musi byc komendą set()
 zb2 = set()
-print(zb2)
+print(zb2)  # set() - pusty zbiór
 print(type(zb2))
 zb2.add(22)
 print(zb2)
