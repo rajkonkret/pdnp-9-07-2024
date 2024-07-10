@@ -56,7 +56,7 @@ zbior.update(zbior_2)
 print(zbior)  # {66, 999, 777, 11, 44, 12.34, 18, 52, 22, 667, 62}
 
 lista = list(zbior)  # {66, 999, 777, 11, 44, 12.34, 18, 52, 22, 667, 62}
-print(lista)  # <class 'list'>
+print(lista)  # (66, 999, 777, 11, 44, 12.34, 18, 52, 22, 667, 62)
 
 krotka = tuple(zbior)
 print(krotka)  # (66, 999, 777, 11, 44, 12.34, 18, 52, 22, 667, 62)
