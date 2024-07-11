@@ -28,7 +28,8 @@ with open('test.log', 'w', encoding='utf-8') as f:
 with open('test.log', 'a', encoding='utf-8') as file:
     file.write("Kolejne dodane\n")
     file.write("Kolejne dodane\n")
-    file.write("Kolejne dośdane\n")
+    file.write("Kolejne dodane\n")
+    file.write("Kolejne doćąźśdane\n")
 
 with open('test.log', 'r', encoding='utf-8') as f:
     lines = f.read()
