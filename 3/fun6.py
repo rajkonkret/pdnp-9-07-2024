@@ -15,7 +15,7 @@ all_args()
 all_args(1)
 all_args(11, 2, 3)
 all_args(11, 2, 3, a=9)
-all_args(a=0)
+all_args(a=0)  # klucz=wartosc
 # () {}
 # (1,) {}
 # (11, 2, 3) {}
