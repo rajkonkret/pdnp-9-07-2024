@@ -28,3 +28,4 @@ print("Sformatowany czas", formatted_time)  # Sformatowany czas 15:38
 data_object = datetime.strptime("10/07/2024", '%d/%m/%Y')
 print(data_object)  # 2024-07-10 00:00:00
 print(type(data_object))  # <class 'datetime.datetime'>
+
