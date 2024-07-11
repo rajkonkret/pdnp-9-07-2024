@@ -44,3 +44,4 @@ odejmij(1, c=9, b=5)
 # odejmij(b=7, 1, 2)  # SyntaxError: positional argument follows keyword argument
 
 print(dodaj())  # None
+# print(dodaj() + dodaj())  # TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType'
